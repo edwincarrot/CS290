@@ -1,0 +1,36 @@
+dt{
+    font-weight: bold;
+} 
+table{
+    border-style:solid;
+}
+th, td{
+    border-style:solid;
+}
+
+tr:nth-of-type(2){
+  background: green;
+}
+
+tr:nth-of-type(4){
+  background: green;
+}
+
+tbody tr:nth-of-type(odd){
+  background: #FF0000;
+}
+
+.outer-content{
+  width: 75%;
+  background: pink;
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 0px;
+  margin-bottom: 20px;  
+}
+.inner-content{
+  background: dodgerblue;
+  margin: auto;
+  width: 75%;
+  text-align: center;
+}
